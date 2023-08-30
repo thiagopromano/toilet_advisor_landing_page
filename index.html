@@ -9,10 +9,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
 	<link rel="stylesheet" href="dist/css/style.css">
 	<link rel="stylesheet" href="dist/css/style-override.css">
+	<link rel="icon" type="image/x-icon" href="dist/images/favicon.ico">
 	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
 
-<body class="is-boxed has-animations">
+<body class="is-boxed has-animations" style="background-color: #606483">
 	<div class="body-wrap boxed-container">
 		<header class="site-header text-light">
 			<div class="container">
@@ -29,14 +30,14 @@
 		</header>
 
 		<main>
-			<section class="hero text-center text-light">
+			<section class="hero text-center text-light" style="background-color: #0b0d19;">
 				<div class="hero-bg"></div>
 				<div class="hero-particles-container">
 					<canvas id="hero-particles"></canvas>
 				</div>
 				<div class="container-sm">
-					<div class="hero-inner">
-						<div class="hero-copy">
+					<div class="hero-inner" style="display: flex; flex-flow: row wrap;">
+						<div class="hero-copy" style="flex: 1">
 							<h1 class="hero-title mt-0">Meet Toilet Advisor: Your Ultimate Bathroom Companion!</h1>
 							<p class="hero-paragraph">Find the best toilets in town, contribute with other travelers by
 								leaving reviews of your experience :)</p>
@@ -48,13 +49,16 @@
 								</a>
 							</div>
 						</div>
-						<div class="mockup-container">
+						<div class="mockup-container" style="flex: 1 200px">
 							<div class="mockup-bg">
-								<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
+								<!-- <img src="dist/images/iphone-dark" alt="iPhone illustration"> -->
 							</div>
-							<img class="device-mockup" src="dist/images/iphone-hero.png" alt="iPhone Hero">
+							<img class="device-mockup" src="dist/images/iphone-dark.png" alt="iPhone Hero">
 						</div>
 					</div>
+				</div>
+				<div style="min-height: 50px;">
+
 				</div>
 			</section>
 

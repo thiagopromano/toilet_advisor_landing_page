@@ -1,8 +1,16 @@
-.boxed-container {
-    max-width: 5000px;
-}
+/* .boxed-container {
+	max-width: 5000px;
+} */
 
 .hero-cta {
 	display: flex;
 	justify-content: center;
+}
+
+.container-sm {
+	max-width: 1200px
+}
+
+.hero .hero-bg {
+	bottom: 30%
 }
